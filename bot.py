@@ -26,7 +26,7 @@ def send_product():
     message_text = (
         f"*{row['Name']}*\n\n"
         f"Description: {row['Description']}\n\n"
-        f"Check it out: {row['Affilate link']}"
+        f"Check it out: {row['Affiliate link']}"
     )
 
     # שליחת התמונה (מלינק) עם הטקסט מתחתיה
